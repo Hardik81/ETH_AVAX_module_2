@@ -50,7 +50,12 @@ contract Assessment {
    function getcost() public view returns(uint){
     return cost;
    }
-} ```
+}
+
+
+```
+
+file 2 in scripts
 
  ``` deploy.js
 const hre = require("hardhat");
@@ -68,7 +73,9 @@ async function main() {
 main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
-}); ``` 
+});
+
+```
 
 5. In the third terminal, type: npx hardhat run --network localhost scripts/deploy.js
 6. Now before going further make your index.js file in the pages folder.
@@ -208,7 +215,6 @@ export default function HomePage() {
     </main>
   )
 }
-
 ```
 
 6. Back in the first terminal, type npm run dev to launch the front-end.
