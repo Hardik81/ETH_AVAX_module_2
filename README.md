@@ -221,3 +221,8 @@ export default function HomePage() {
 
 After this, the project will be running on your localhost. 
 Typically at http://localhost:3000/
+
+# Author
+Hardik
+hardikxibscience238@gmail.com
+
